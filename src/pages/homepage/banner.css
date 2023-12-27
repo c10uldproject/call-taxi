@@ -1,0 +1,17 @@
+.image-s{
+    width: 100% !important;
+    height: 110vh !important;
+    background-attachment: fixed;
+}
+ .carousel-control-next, .carousel-control-prev{
+    display: none !important;
+}
+.carousel-indicators{
+    display: none !important;
+} 
+@media screen and (max-width:450px) {
+.image-s{
+    width: 100% !important;
+    height: 120vh !important;
+}
+}

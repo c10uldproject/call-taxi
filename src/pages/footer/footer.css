@@ -1,0 +1,32 @@
+.footer-tex{
+    color: #7d7d7d;
+}
+.footer-icons{
+    color: #7d7d7d;
+    margin-right: 25px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.footer-icons:hover{
+    color: #06d6a0;
+}
+.footer-a{
+    text-decoration: none;
+    color: #7d7d7d;
+    margin-bottom: 30px;
+}
+.arrow-icons{
+    margin-right: 10px;
+}
+.arrow-icon-2{
+    margin-left: 20px;
+}
+.con{
+    margin-right: 33px;
+}
+.mt-contact-icon{
+    margin-bottom: -12px !important;
+}
+.copy-con{
+  display: inline-block !important;
+}

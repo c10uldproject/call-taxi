@@ -1,0 +1,93 @@
+.booking-container{
+    position: absolute;
+    margin-left: 37px !important;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 90% !important;
+    height: 100vh;
+    text-align: center;
+    justify-content: center !important;
+}
+.model-container{
+    margin-top: 6rem !important;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #fff;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px !important;
+}
+.form-cars{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+}
+.cars-name{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 20px !important;
+    width: inherit !important;
+    max-width: 90 !important;
+}
+.form-con-span{
+    position: absolute;
+    bottom: 0;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    color: black;
+}
+.cars-container{
+    display: flex;
+    flex-direction: row;
+}
+.row-cars{
+    margin-left: 0 !important;
+    padding: 0 !important;
+}
+.input-con{
+    margin-top: 20px;
+}
+.button-59 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-size: 16px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  min-width: 100px;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  color: #171e29;
+}
+
+.button-59:hover {
+  border-color: #FFF;
+  background-color: #06d6a0;
+  color: #FFF;
+  border-radius: 10px;
+}
+
+.button-59:active {
+  border-color: #fff;
+  background-color:#06d6a0 ;
+  color: #FFF;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
